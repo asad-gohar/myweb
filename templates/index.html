@@ -67,7 +67,7 @@
                     </caption>
                     <thead class="cf">
                         <tr>
-
+                            <th scope="col" class="header">id</th>
                             <th scope="col" class="header">Question</th>
                             <th scope="col" class="header float-right">Answer</th>
 
@@ -77,6 +77,11 @@
 
                         {% for c in data %}
                         <tr>
+                             <td class="align-middle" style="cursor: pointer;">
+
+                                {{c["id"]}}
+
+                            </td>
 
                             <td class="align-middle" style="cursor: pointer;">
 
